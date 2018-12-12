@@ -54,7 +54,7 @@ Active piezo buzzer module
 
 Start by labeling your PSB this way:
 
-[Image of labels]
+![PSB labels](https://github.com/innovationgarage/SisterAlarm/raw/master/images/PSBLabels.jpg PSB labels)
 
 Okay, so this might sound quite techinical at first, but hang on, it's
 actually pretty simple to get it working:
