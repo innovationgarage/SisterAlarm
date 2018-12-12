@@ -1,3 +1,21 @@
+/* The Princess Ophelias Sister Alarm
+
+ * Do you have a sneaky snooping little sister or brother? We know you
+ * always want to keep them out of your room with the most high-tech
+ * solution available.
+
+ * The following is a tutorial project for building a motion sensor
+ * based alarm that is activated/deactivated with an RFID card / tag.
+ * It should be suitably loud and annoying to your snooping little
+ * friend.
+
+ * Homepage: https://github.com/innovationgarage/SisterAlarm
+
+ * Copyright: 2018, Innovationgarage AS
+ * License: MIT
+
+ */
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <LiquidCrystal.h>
