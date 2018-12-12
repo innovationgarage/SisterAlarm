@@ -39,6 +39,8 @@ unwelcomedness!
 Arduino Nano
 ProtoSwitchBoard
 
+[Image of Arduino]
+
 ## Peripheral ingredients
 (all from Luxorparts)
 RFID reader RC522
@@ -46,23 +48,37 @@ LCD screen SH1106
 PIR (motion) sensor
 Active piezo buzzer module
 
-# Connections
+[Images of the components]
+
+# Instructions
+
+Start by labeling your PSB this way:
+
+[Image of labels]
+
+Okay, so this might sound quite techinical at first, but hang on, it's
+actually pretty simple to get it working:
+
 The PIR (motion) sensor connects to a single digital input pin, and
 the piezo buzzer to a single PWM digital output pin.
 
 The screen connects via I2C (SDA & SCL signals), and the RFID reader
 via SPI (MOSI, MISO, SCK, SS) and RST.
 
-Both modules are sold with labeled pins, so just go ahead and wire
-them up to the corresponding labeled pins on the PSB. Don't forget
-Ground and 5V (VCC). Some notes though: The RFID reader we got had the
-SS pin mislabeled SDA, and it also wants 3.3V, not 5V. Be carefull!
+All the modules are sold with labeled pins, so all you need to do is
+actually to wire them up to the correspondingly labeled pins on the
+PSB! Then do the same with the Arduino. The PSB has separate labels
+for the arduino pins. Don't forget Ground and 5V (VCC).
 
-[Image of RFID reader to PSB cabling]
-[Image of screen to PSB cabling]
+Some notes though: The RFID reader we got wants 3.3V, not 5V. You'll
+have to run an extra cable just for this, directly to the arduino:s
+3V3 pin. Be carefull!
+
+[Full project image]
+
+# Comments
 
 It's a bit unfortunate that the screen and RFID reader connects via
 different busses, but these are the most common components available.
 If you can find ones that share bus you could simplify the cabling a
 bit!
-
