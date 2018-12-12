@@ -8,6 +8,8 @@ The following is a tutorial project for building a motion sensor based
 alarm that is activated/deactivated with an RFID card / tag. It should
 be suitably loud and annoying to your snooping little friend.
 
+![PSB labels](https://github.com/innovationgarage/SisterAlarm/raw/master/images/overview.jpg)
+
 # Usage
 
 The SisterAlarm has two states, engaged and disengaged. In its engaged
@@ -36,19 +38,22 @@ unwelcomedness!
 
 # Ingredients
 ## Main ingredients
-Arduino Nano
-ProtoSwitchBoard
+* Arduino Nano
+* ProtoSwitchBoard
 
-[Image of Arduino]
+![Arduino](https://github.com/innovationgarage/SisterAlarm/raw/master/images/Arduino.jpg)
 
 ## Peripheral ingredients
 (all from Luxorparts)
-RFID reader RC522
-LCD screen SH1106
-PIR (motion) sensor
-Active piezo buzzer module
+* RFID reader RC522
+* LCD screen SH1106
+* PIR (motion) sensor
+* Active piezo buzzer module
 
-[Images of the components]
+![RFID](https://github.com/innovationgarage/SisterAlarm/raw/master/images/RFID.jpg)
+![Screen](https://github.com/innovationgarage/SisterAlarm/raw/master/images/Screen.jpg)
+![PIR](https://github.com/innovationgarage/SisterAlarm/raw/master/images/PIR.jpg)
+![BUZZ](https://github.com/innovationgarage/SisterAlarm/raw/master/images/BUZZ.jpg)
 
 # Instructions
 
