@@ -83,6 +83,11 @@ have to run an extra cable just for this, directly to the arduino:s
 
 You need to program your Arduino to turn it into a SisterAlarm Main Unit! To do so, first download and install the prerequisite Arduino libraries listed below, then download the SisterAlaram.ino from above and load it in your Arduino IDE, connect the Arduino USB cable and press "play".
 
+## Prerequisite libraries
+
+* MFRC522 (install using the Arduino IDE: Sketch / Include libraries / Managa libraries)
+* [MicroLCD](https://github.com/stanleyhuangyc/MultiLCD/tree/master/MicroLCD)
+
 # Comments
 
 It's a bit unfortunate that the screen and RFID reader connects via
