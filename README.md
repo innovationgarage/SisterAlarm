@@ -81,7 +81,7 @@ have to run an extra cable just for this, directly to the arduino:s
 
 # Software
 
-You need to program your Arduino to turn it into a SisterAlarm Main Unit! To do so, first download and install the prerequisite Arduino libraries listed below, then download the SisterAlaram.ino from above and load it in your Arduino IDE, connect the Arduino USB cable and press "play".
+You need to program your Arduino to turn it into a SisterAlarm Main Unit! To do so, first download and install the prerequisite Arduino libraries listed below, then download the [SisterAlaram.ino](https://github.com/innovationgarage/SisterAlarm/raw/master/SisterAlarm.ino) and load it in your Arduino IDE, connect the Arduino USB cable and press "play".
 
 ## Prerequisite libraries
 
