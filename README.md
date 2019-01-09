@@ -39,7 +39,7 @@ unwelcomedness!
 # Ingredients
 ## Main ingredients
 * Arduino Nano
-* ProtoSwitchBoard
+* [ProtoSwitchBoard](https://innovationgarage.github.io/ProtoSwitchBoard)
 
 ![Arduino](https://github.com/innovationgarage/SisterAlarm/raw/master/images/Arduino.jpg)
 
