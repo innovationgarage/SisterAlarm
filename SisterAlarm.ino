@@ -9,7 +9,7 @@
  * It should be suitably loud and annoying to your snooping little
  * friend.
 
- * Homepage: https://github.com/innovationgarage/SisterAlarm
+ * Homepage: https://innovationgarage.github.io/SisterAlarm
 
  * Copyright: 2018, Innovationgarage AS
  * License: MIT
